@@ -1,0 +1,1 @@
+Se investigo como se usa bootstrap para lograr crear el curriculum y una pequeña guia en bootstrap.

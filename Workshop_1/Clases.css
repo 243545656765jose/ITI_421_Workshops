@@ -1,0 +1,41 @@
+.page {
+    background-color: #c1c1b6db;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.nombre{
+    text-align: center;
+}
+.prueba {
+    position: relative;
+    width: 2%; 
+    max-width: 2%; 
+}
+.prueba img {
+    width: 100%; 
+    height: auto;
+}
+body {
+    background-image: url('https://img.freepik.com/foto-gratis/esfera-azul-brillante-sostenida-mano-humana-generada-ia_188544-41033.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1707264000&semt=sph');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: moverFondo 15s linear infinite alternate; /* Corrección del nombre de la animación */
+}
+
+@keyframes moverFondo { 
+    from {
+        background-position: 0 0; 
+    }
+    to {
+        background-position: 100% 100%; 
+    }
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
