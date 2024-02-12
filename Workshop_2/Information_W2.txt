@@ -1,0 +1,1 @@
+Se creo una pajina estilo periodico en el rpimer index se indica el nombre del periodico sus secciones y en u link de furbol se va a la seccion de deportes en el segundo index.

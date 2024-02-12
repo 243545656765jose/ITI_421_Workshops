@@ -1,0 +1,25 @@
+.colorDiv{
+    background-color: rgb(88, 88, 154);
+    text-align: center;
+}
+.h1estilo{
+    background-color: rgb(235, 15, 48);
+    text-align: center;
+}
+.h1center{
+    text-align: center;
+}
+.sectionFinal{
+    background-color: lightblue;
+    text-align: center;
+}
+.div-pequeno {
+    margin: auto;
+    width: 1200px;
+    height: 400px; 
+    background-color: lightblue; 
+}
+button{
+    background-color: darkgreen;
+    text-emphasis-color: white;
+}
