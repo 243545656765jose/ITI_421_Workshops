@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin-left: 20%;
+}
+div {
+  align-items: center;
+}
+p {
+  margin-left: 20%;
+}
+button {
+  margin-left: 20%;
+}
+.section1 {
+  position: relative;
+}
+
+.section1 img {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  margin-top: auto;
+}
+
+.full-width {
+  width: 100%;
+  overflow: hidden;
+}
+
+.full-width img {
+  width: 100%;
+  display: block;
+  height: 400px;
+}

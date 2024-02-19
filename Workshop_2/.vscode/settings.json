@@ -1,0 +1,6 @@
+{
+    "editor.defaultFoldingRangeProvider": "vscode.html-language-features",
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.guides.bracketPairs": "active"
+}
