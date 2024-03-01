@@ -1,34 +1,40 @@
+html {
+  font-size: 15px;
+}
 body {
   background-color: rgb(238, 236, 236);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
-h2 {
+h2,
+p {
+  font-size: 2em;
   margin-left: 20%;
 }
 div {
   align-items: center;
 }
-p {
-  margin-left: 20%;
-}
+
 button {
   margin-left: 20%;
 }
 .section1 {
-  position: relative;
-}
-
-.section1 img {
   position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
+}
+.samp {
+  display: initial;
+  color: brown;
+}
+.section1 img {
+  position: fixed;
+  float: left;
+  width: 200px;
 }
 
 section {
   margin-top: auto;
+  font-size: 2vh;
 }
 
 .full-width {
@@ -42,12 +48,13 @@ section {
   height: 400px;
 }
 .image1 {
-  margin-top: -400px;
+  margin-top: -1000px;
   width: 400px;
   margin-right: 700px;
 }
+
 .image2 {
-  margin-top: -400px;
+  margin-top: px;
   width: 400px;
   margin-right: 500px;
 }
@@ -57,4 +64,14 @@ section {
 .divimg2 {
   margin-top: -20px;
   margin-right: 60px;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1,p,h2 {
+    font-size: 45px;
+  }
 }
